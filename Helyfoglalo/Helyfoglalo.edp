@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
+
+  <_Project>
+    <ProjectName val="Helyfoglalo"/>
+    <VCActive val="N"/>
+    <WorkOffline val="N"/>
+    <SourceDirectory val="Source"/>
+    <ExportsDirectory val="Exports"/>
+    <GUID val="{97ACBF83-1B32-4821-87CC-4E0C38D59826}"/>
+    <Version min="12010"/>
+  </_Project>
+
+</Application>

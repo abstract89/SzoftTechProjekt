@@ -1,0 +1,28 @@
+ <Application>
+ 
+<Header>
+
+  <Version val="13000"/>
+
+  <WithIsn val="Y"/>
+
+  <Exe comp="-1"/>
+
+  <LastIsn val="7"/>
+
+  <LastIsnFolder val="0"/>
+
+  <Folders/>
+
+</Header>
+ <DataSourceRepository>
+  <DataObjects>
+ 
+<DataObject PhysicalName="Diplomaoszto" Resident="N" data_source="Helyfoglalo" id="2" name="Diplomaoszto" offset="210" length="4946"/> 
+<DataObject PhysicalName="Felhasznalo" Resident="N" data_source="Helyfoglalo" id="3" name="Felhasznalo" offset="5157" length="5250"/> 
+<DataObject PhysicalName="Foglalas" Resident="N" data_source="Helyfoglalo" id="4" name="Foglalas" offset="10408" length="7457"/> 
+<DataObject PhysicalName="FoglalasTipus" Resident="N" data_source="Helyfoglalo" id="5" name="FoglalasTipus" offset="17866" length="2541"/> 
+<DataObject PhysicalName="Szek" Resident="N" data_source="Helyfoglalo" id="6" name="Szek" offset="20408" length="3893"/> 
+<DataObject PhysicalName="SzekTipus" Resident="N" data_source="Helyfoglalo" id="7" name="SzekTipus" offset="24302" length="2517"/>  </DataObjects>
+ </DataSourceRepository>
+ <LastModified val="30482375-124611108"/>  </Application>
