@@ -4,7 +4,7 @@
   <Header>
     <Version val="13000"/>
     <WithIsn val="Y"/>
-    <LastIsn val="4"/>
+    <LastIsn val="5"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
@@ -37,6 +37,15 @@
           <RaiseEvent id="234">
             <EventType val="I"/>
             <InternalEventID val="33"/>
+            <PublicObject comp="-1"/>
+          </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="5" name="ButtonKilépés">
+        <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+          <RaiseEvent id="234">
+            <EventType val="I"/>
+            <InternalEventID val="13"/>
             <PublicObject comp="-1"/>
           </RaiseEvent>
         </PropertyList>

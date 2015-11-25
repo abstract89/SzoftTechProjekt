@@ -4,9 +4,19 @@
   <Header>
     <Version val="13000"/>
     <WithIsn val="Y"/>
-    <LastIsn val="0"/>
+    <LastIsn val="1"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
+
+  <HelpRepository>
+    <HelpScreens>
+      <Help Type="T" id="1" name="Help">
+        <PropertyList model="HELP_TOOLTIP">
+          <Text id="19" valUnicode="&quot;Nyomjon F5 billentyűt a kiválasztáshoz !&quot;"/>
+        </PropertyList>
+      </Help>
+    </HelpScreens>
+  </HelpRepository>
 
 </Application>

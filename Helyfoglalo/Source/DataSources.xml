@@ -17,7 +17,7 @@
 </Header>
  <DataSourceRepository>
   <DataObjects>
- 
+  
 <DataObject PhysicalName="Diplomaoszto" Resident="N" data_source="Helyfoglalo" id="2" name="Diplomaoszto">
 
   <Encrypt val="N"/>
@@ -168,7 +168,7 @@
 
   <IdentifyRowModifications val="U"/>
 
-  <HasHint val="N"/>
+  <HasHint val="Y"/>
 
   <Cursor val="D"/>
 
@@ -186,7 +186,7 @@
 
   <IndexesLastIsn val="1"/>
 
-  <ForkeysLastIsn val="1"/>
+  <ForkeysLastIsn val="2"/>
 
   <MetaTreeRTIndex val="-1"/>
 
@@ -201,8 +201,8 @@
         <NullDefault id="169"/>
         <DatabaseDefault id="171"/>
         <CharSet id="172" val="1"/>
-        <StoredAs id="173" val="4"/>
-        <Size id="174" val="4"/>
+        <StoredAs id="173" val="6"/>
+        <Size id="174" val="8"/>
         <Definition id="175" val="2"/>
         <DatabaseInformation id="177"/>
         <DbColumnName id="178" val="FelhasznaloID"/>
@@ -211,6 +211,7 @@
         <_Dec id="181"/>
         <_Whole id="182" val="10"/>
         <_Negative id="192" val="Y"/>
+        <_FieldPhysical Name="FelhasznaloID" PIC_U="N10" Size="4" SqlType="INTEGER IDENTITY" allowed_null="N" attribute="N" context_cookies="N" database_definition="2" id="231" storage="4" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -231,6 +232,7 @@
         <DbColumnName id="178" val="Nev"/>
         <Type id="179" val="NVARCHAR(50)"/>
         <UserType id="180"/>
+        <_FieldPhysical Name="Nev" PIC_U="50" Size="100" SqlType="NVARCHAR(50)" allowed_null="N" attribute="U" context_cookies="Y" database_definition="2" id="231" storage="32"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -251,6 +253,7 @@
         <DbColumnName id="178" val="Jelszo"/>
         <Type id="179" val="NVARCHAR(50)"/>
         <UserType id="180"/>
+        <_FieldPhysical Name="Jelszo" PIC_U="50" Size="100" SqlType="NVARCHAR(50)" allowed_null="N" attribute="U" context_cookies="Y" database_definition="2" id="231" storage="32"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -264,8 +267,8 @@
         <NullDefault id="169"/>
         <DatabaseDefault id="171"/>
         <CharSet id="172" val="1"/>
-        <StoredAs id="173" val="4"/>
-        <Size id="174" val="4"/>
+        <StoredAs id="173" val="6"/>
+        <Size id="174" val="8"/>
         <Definition id="175" val="2"/>
         <DatabaseInformation id="177"/>
         <DbColumnName id="178" val="Jogosultsag"/>
@@ -274,6 +277,7 @@
         <_Dec id="181"/>
         <_Whole id="182" val="10"/>
         <_Negative id="192" val="Y"/>
+        <_FieldPhysical Name="Jogosultsag" PIC_U="N10" Size="4" SqlType="INTEGER" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -287,8 +291,8 @@
         <NullDefault id="169" val="Y"/>
         <DatabaseDefault id="171"/>
         <CharSet id="172" val="1"/>
-        <StoredAs id="173" val="4"/>
-        <Size id="174" val="4"/>
+        <StoredAs id="173" val="6"/>
+        <Size id="174" val="8"/>
         <Definition id="175" val="2"/>
         <DatabaseInformation id="177"/>
         <DbColumnName id="178" val="DiplomaosztoID"/>
@@ -297,6 +301,7 @@
         <_Dec id="181"/>
         <_Whole id="182" val="10"/>
         <_Negative id="192" val="Y"/>
+        <_FieldPhysical Name="DiplomaosztoID" PIC_U="N10" Size="4" SqlType="INTEGER" allowed_null="Y" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="4" translate="1"/>
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
@@ -315,7 +320,7 @@
       <Primary val="Y"/>
       <Segments>
         <Segment>
-          <Size val="4"/>
+          <Size val="8"/>
           <Column val="1"/>
           <Order val="A"/>
         </Segment>
@@ -330,7 +335,7 @@
       <PrimaryKey val="1"/>
       <Segments>
         <Segment>
-          <Size val="4"/>
+          <Size val="8"/>
           <Column val="5"/>
         </Segment>
       </Segments>
