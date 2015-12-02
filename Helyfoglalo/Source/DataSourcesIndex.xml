@@ -1,28 +1,26 @@
- <Application>
- 
-<Header>
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<Application>
 
-  <Version val="13000"/>
+  <Header>
+    <Version val="13000"/>
+    <WithIsn val="Y"/>
+    <Exe comp="-1"/>
+    <LastIsn val="8"/>
+    <LastIsnFolder val="0"/>
+    <Folders/>
+  </Header>
 
-  <WithIsn val="Y"/>
+  <DataSourceRepository>
+    <DataObjects>
+      <DataObject PhysicalName="Diplomaoszto" Resident="N" data_source="Helyfoglalo" id="2" length="5092" name="Diplomaoszto" offset="209"/>
+      <DataObject PhysicalName="Felhasznalo" Resident="N" data_source="Helyfoglalo" id="3" length="6390" name="Felhasznalo" offset="5302"/>
+      <DataObject PhysicalName="Foglalas" Resident="N" data_source="Helyfoglalo" id="4" length="8159" name="Foglalas" offset="11693"/>
+      <DataObject PhysicalName="FoglalasTipus" Resident="N" data_source="Helyfoglalo" id="5" length="2639" name="FoglalasTipus" offset="19853"/>
+      <DataObject PhysicalName="Szek" Resident="N" data_source="Helyfoglalo" id="6" length="4036" name="Szek" offset="22493"/>
+      <DataObject PhysicalName="SzekTipus" Resident="N" data_source="Helyfoglalo" id="7" length="2615" name="SzekTipus" offset="26530"/>
+    </DataObjects>
+  </DataSourceRepository>
 
-  <Exe comp="-1"/>
+  <LastModified val="30485596-213403571"/>
 
-  <LastIsn val="7"/>
-
-  <LastIsnFolder val="0"/>
-
-  <Folders/>
-
-</Header>
- <DataSourceRepository>
-  <DataObjects>
-  
-<DataObject PhysicalName="Diplomaoszto" Resident="N" data_source="Helyfoglalo" id="2" name="Diplomaoszto" offset="210" length="4947"/> 
-<DataObject PhysicalName="Felhasznalo" Resident="N" data_source="Helyfoglalo" id="3" name="Felhasznalo" offset="5158" length="6207"/> 
-<DataObject PhysicalName="Foglalas" Resident="N" data_source="Helyfoglalo" id="4" name="Foglalas" offset="11366" length="7457"/> 
-<DataObject PhysicalName="FoglalasTipus" Resident="N" data_source="Helyfoglalo" id="5" name="FoglalasTipus" offset="18824" length="2541"/> 
-<DataObject PhysicalName="Szek" Resident="N" data_source="Helyfoglalo" id="6" name="Szek" offset="21366" length="3893"/> 
-<DataObject PhysicalName="SzekTipus" Resident="N" data_source="Helyfoglalo" id="7" name="SzekTipus" offset="25260" length="2517"/>  </DataObjects>
- </DataSourceRepository>
- <LastModified val="30483378-127038922"/>  </Application>
+</Application>

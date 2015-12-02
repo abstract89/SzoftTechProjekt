@@ -1,3 +1,28 @@
 ﻿ <311858551541984256> 25/11/2015 15:40:42.349     [Error  ] - EndTaskRequest(): Browser request failed : "Main" ("Helyfoglalo")  (msgid "1235"), program: Main Program
  <520749016117921984> 25/11/2015 17:14:30.459     [Error  ] - EndTaskRequest(): Browser request failed : "Main" ("Helyfoglalo")  (msgid "7727"), program: Main Program
  <116395041780158512> 25/11/2015 17:52:52.037     [Error  ] - EndTaskRequest(): Browser request failed : "Main" ("Helyfoglalo")  (msgid "10908"), program: Main Program
+
+==============================================
+PID 2316	01/12/2015 17:31:33
+==============================================
+
+
+ <180558716551560608> 01/12/2015 17:58:29.901     [Error  ] - Cannot open output PDF file in Write mode: Diplomaosztó jegy.pdf, program: Main.Főablak.Admin.Jegynyomtatás
+ <-1> 01/12/2015 18:05:48.663     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 01/12/2015 18:06:01.088     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 01/12/2015 18:39:43.566     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+ <-1> 01/12/2015 18:41:40.478     [Error  ] - Error - run-time engine was not found. Please restart the studio in order to run the application
+
+==============================================
+PID 5192	01/12/2015 18:42:01
+==============================================
+
+
+ <482847485685080192> 02/12/2015 09:11:19.347     [Error  ] - Failed to open, data source: Foglalas, program: Main.Főablak.Admin.Jegyellenőrzés
+ <482847485685080192> 02/12/2015 09:11:19.352     [Error  ] - Failed to open, data source: Foglalas, program: Main.Főablak.Admin.Jegyellenőrzés
+ <482847485685080192> 02/12/2015 09:11:19.354     [Error  ] - EndTaskRequest(): Failed to open, data source: Foglalas : Jegyellenorzés DANI-PC\SQLEXPRESS : Invalid column name 'FoglalasID'.Record not found - positioned at beginning : Jegyellenorzés Failed to open, data source: Foglalas : Jegyellenorzés DANI-PC\SQLEXPRESS : Invalid column name 'FoglalasID'. : "" ("Helyfoglalo")  (msgid "13"), program: Main Program
+ <99038772061575824> 02/12/2015 09:11:35.395     [Error  ] - Failed to open, data source: Foglalas, program: Main.Főablak.Admin.Jegyellenőrzés
+ <99038772061575824> 02/12/2015 09:11:35.395     [Error  ] - Failed to open, data source: Foglalas, program: Main.Főablak.Admin.Jegyellenőrzés
+ <99038772061575824> 02/12/2015 09:11:35.405     [Error  ] - EndTaskRequest(): Failed to open, data source: Foglalas : Jegyellenorzés DANI-PC\SQLEXPRESS : Invalid column name 'FoglalasID'.Record not found - positioned at beginning : Jegyellenorzés Failed to open, data source: Foglalas : Jegyellenorzés DANI-PC\SQLEXPRESS : Invalid column name 'FoglalasID'. : "Main.Főablak" ("Helyfoglalo")  (msgid "22"), program: Main Program
+ <520170901392782272> 02/12/2015 09:25:13.727     [Error  ] - Cannot modify Read Only, data source: SzekTipus, program: Main.Főablak.Admin.Jegyellenőrzés
+ <520170901392782272> 02/12/2015 09:25:13.737     [Error  ] - EndTaskRequest(): Cannot modify Read Only, data source: SzekTipus : Jegyellenorzés  : "Main.Főablak.Admin.Jegyellenőrzés" ("Helyfoglalo")  (msgid "117"), program: Main Program

@@ -31,7 +31,7 @@
           <Offline val="N"/>
           <FormType val="D"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="735927" _time="63674" date="25/11/2015" time="17:41:14"/>
+          <LastModified _date="735934" _time="33595" date="02/12/2015" time="09:19:55"/>
         </Header>
         <ReturnValueExpression val="4"/>
         <ItemIsn val="6"/>
@@ -117,6 +117,8 @@
           </BOX>
         </Information>
         <INT_RECOMP_INFO>
+          <v>2</v>
+          <v>3</v>
           <v>0</v>
         </INT_RECOMP_INFO>
         <TaskLogic>
@@ -150,11 +152,11 @@
                   <Column val="1"/>
                   <Type val="V"/>
                   <IsParameter val="Y"/>
-                  <_RecomputeIndex val="2"/>
-                  <_FormIndex val="2"/>
-                  <_ControlIndex val="2"/>
-                  <_OleSubformIdx val="2"/>
-                  <_TabbingOrderDspIndex val="2"/>
+                  <_RecomputeIndex val="4"/>
+                  <_FormIndex val="4"/>
+                  <_ControlIndex val="4"/>
+                  <_OleSubformIdx val="4"/>
+                  <_TabbingOrderDspIndex val="4"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -167,11 +169,11 @@
                   <Type val="R"/>
                   <IsParameter val="N"/>
                   <Range MAX="4" MIN="4"/>
-                  <_RecomputeIndex val="2"/>
-                  <_FormIndex val="2"/>
-                  <_ControlIndex val="2"/>
-                  <_OleSubformIdx val="2"/>
-                  <_TabbingOrderDspIndex val="2"/>
+                  <_RecomputeIndex val="4"/>
+                  <_FormIndex val="4"/>
+                  <_ControlIndex val="4"/>
+                  <_OleSubformIdx val="4"/>
+                  <_TabbingOrderDspIndex val="4"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -183,12 +185,12 @@
                   <Column val="2"/>
                   <Type val="R"/>
                   <IsParameter val="N"/>
-                  <_RecomputeIndex val="1"/>
-                  <_FormIndex val="1"/>
+                  <_RecomputeIndex val="3"/>
+                  <_FormIndex val="3"/>
                   <_ControlLength val="1"/>
-                  <_ControlIndex val="1"/>
-                  <_OleSubformIdx val="1"/>
-                  <_TabbingOrderDspIndex val="1"/>
+                  <_ControlIndex val="3"/>
+                  <_OleSubformIdx val="3"/>
+                  <_TabbingOrderDspIndex val="3"/>
                   <DIFF_UPDATE val="T"/>
                   <Condition val="Y"/>
                   <Modifier val="S"/>
@@ -202,6 +204,7 @@
                   <IsParameter val="N"/>
                   <_RecomputeIndex val="1"/>
                   <_FormIndex val="1"/>
+                  <_ControlLength val="2"/>
                   <_ControlIndex val="1"/>
                   <_OleSubformIdx val="1"/>
                   <_TabbingOrderDspIndex val="1"/>
@@ -285,9 +288,48 @@
               </LogicLine>
             </LogicLines>
           </LogicUnit>
+          <LogicUnit id="5" propagate="78">
+            <Level val="H"/>
+            <Type val="U"/>
+            <_DspTemplate val="-1"/>
+            <_HeaderPosition val="9"/>
+            <Scope val="T"/>
+            <EngineDirective val="S"/>
+            <ShowMessage val="Y"/>
+            <Condition val="89"/>
+            <Event>
+              <EventType val="U"/>
+              <PublicObject comp="-1" obj="3"/>
+            </Event>
+            <TXT val="Jegyek nyomtatása"/>
+            <Expanded val="1"/>
+            <ExecuteOn_ val="O"/>
+            <LogicLines>
+              <LogicLine>
+                <CallTask FlowIsn="22">
+                  <OperationType val="P"/>
+                  <TaskID comp="-1" obj="10"/>
+                  <Lock val="N"/>
+                  <Arguments>
+                    <Argument>
+                      <id val="1"/>
+                      <Variable val="1"/>
+                      <Skip val="N"/>
+                    </Argument>
+                  </Arguments>
+                  <Wait val="Y"/>
+                  <SyncData val="N"/>
+                  <RetainFocus val="N"/>
+                  <Condition val="Y"/>
+                  <Modifier val="B"/>
+                  <Direction val="C"/>
+                </CallTask>
+              </LogicLine>
+            </LogicLines>
+          </LogicUnit>
         </TaskLogic>
         <TaskForms>
-          <FormEntry _last_isn="2" _last_test_id="2" id="1">
+          <FormEntry _last_isn="4" _last_test_id="4" id="1">
             <PropertyList model="FORM_RICH_CLIENT">
               <Model comp="-1" id="1" obj="2"/>
               <Width id="23" val="745"/>
@@ -319,6 +361,32 @@
                 <TabOrder id="314" val="1"/>
               </PropertyList>
             </Control>
+            <Control PDOD="128" _test_id="3" id="3">
+              <PropertyList model="CTRL_RICH_CLIENT_SUBFORM">
+                <X id="21" val="40"/>
+                <Y id="22" val="75"/>
+                <Width id="23" val="553"/>
+                <Height id="24" val="358"/>
+                <TaskNumber Exp="5" id="183"/>
+                <TabOrder id="314" val="2"/>
+              </PropertyList>
+            </Control>
+            <Control PDOD="128" _test_id="4" id="4">
+              <PropertyList model="CTRL_RICH_CLIENT_PUSH_BUTTON">
+                <X id="21" val="609"/>
+                <Y id="22" val="91"/>
+                <Width id="23" val="111"/>
+                <Height id="24" val="47"/>
+                <ControlName id="46" val="Jegyek nyomtatása"/>
+                <Visible Exp="6" id="61"/>
+                <Format id="82" valUnicode="Jegyek nyomtatása"/>
+                <RaiseEvent id="234">
+                  <EventType val="U"/>
+                  <PublicObject comp="-1" obj="3"/>
+                </RaiseEvent>
+                <TabOrder id="314" val="3"/>
+              </PropertyList>
+            </Control>
           </FormEntry>
         </TaskForms>
         <Expressions>
@@ -338,10 +406,24 @@
             <ExpSyntax val="{0,3}"/>
             <ExpAttribute val="N"/>
           </Expression>
+          <Expression id="5">
+            <ExpSyntax val="IF({0,5}=1,'{8,-1}'PROG,'{9,-1}'PROG)"/>
+            <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="6">
+            <ExpSyntax val="{0,5}=2"/>
+            <ExpAttribute val="B"/>
+          </Expression>
         </Expressions>
         <EVNT DESC="Kilepes" FORCE_EXIT="N" id="1">
           <Event>
             <EventType val="N"/>
+            <PublicObject comp="-1"/>
+          </Event>
+        </EVNT>
+        <EVNT DESC="Jegyek nyomtatása" FORCE_EXIT="N" id="3">
+          <Event>
+            <EventType val="S"/>
             <PublicObject comp="-1"/>
           </Event>
         </EVNT>

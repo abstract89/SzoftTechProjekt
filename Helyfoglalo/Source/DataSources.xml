@@ -8,7 +8,7 @@
 
   <Exe comp="-1"/>
 
-  <LastIsn val="7"/>
+  <LastIsn val="8"/>
 
   <LastIsnFolder val="0"/>
 
@@ -17,6 +17,7 @@
 </Header>
  <DataSourceRepository>
   <DataObjects>
+ 
   
 <DataObject PhysicalName="Diplomaoszto" Resident="N" data_source="Helyfoglalo" id="2" name="Diplomaoszto">
 
@@ -365,11 +366,11 @@
 
   <PositionIndex val="1"/>
 
-  <ColumnsLastIsn val="5"/>
+  <ColumnsLastIsn val="6"/>
 
   <IndexesLastIsn val="2"/>
 
-  <ForkeysLastIsn val="3"/>
+  <ForkeysLastIsn val="6"/>
 
   <MetaTreeRTIndex val="-1"/>
 
@@ -491,6 +492,22 @@
         <PartOfDatetime id="244"/>
       </PropertyList>
     </Column>
+    <Column id="6" name="FoglalasID">
+      <PropertyList model="FIELD">
+        <Model attr_obj="FIELD_NUMERIC" id="1"/>
+        <Picture id="157" valUnicode="N10"/>
+        <StoredAs id="173" val="6"/>
+        <Size id="174" val="8"/>
+        <Definition id="175" val="2"/>
+        <DbColumnName id="178" val="FoglalasID"/>
+        <_Dec id="181"/>
+        <_Whole id="182" val="10"/>
+        <_Negative id="192" val="Y"/>
+        <_Flip id="194"/>
+        <_FieldPhysical Name="FoglalasID" PIC_U="N10" Size="8" allowed_null="N" attribute="N" context_cookies="Y" database_definition="2" id="231" storage="6" translate="1"/>
+        <_FieldStyle id="276" val="1"/>
+      </PropertyList>
+    </Column>
   </Columns>
 
   <Indexes>
@@ -506,8 +523,8 @@
       <Primary val="Y"/>
       <Segments>
         <Segment>
-          <Size val="4"/>
-          <Column val="1"/>
+          <Size val="8"/>
+          <Column val="6"/>
           <Order val="A"/>
         </Segment>
       </Segments>

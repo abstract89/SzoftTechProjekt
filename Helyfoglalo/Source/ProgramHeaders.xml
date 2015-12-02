@@ -25,10 +25,10 @@
         <DotNetObjectExists val="N"/>
         <LastModified _date="735916" _time="64708" date="14/11/2015" time="17:58:28"/>
       </Header>
-      <SourceFileTimeStamp _date="735917" _time="30356" date="15/11/2015" time="08:25:56"/>
+      <SourceFileTimeStamp _date="735927" _time="29860" date="25/11/2015" time="08:17:40"/>
     </Program>
     <Program>
-      <Header Description="Bejelentkezés" ISN_2="1" LastIsn="5" id="2">
+      <Header Description="Bejelentkezés" ISN_2="1" LastIsn="1" id="2">
         <ExecutionRight comp="-1"/>
         <Resident val="N"/>
         <SQL val="N"/>
@@ -45,7 +45,7 @@
         <DotNetObjectExists val="N"/>
         <LastModified _date="735927" _time="63730" date="25/11/2015" time="17:42:10"/>
       </Header>
-      <SourceFileTimeStamp _date="735927" _time="60130" date="25/11/2015" time="16:42:10"/>
+      <SourceFileTimeStamp _date="735933" _time="56404" date="01/12/2015" time="15:40:04"/>
     </Program>
     <Program>
       <Header Description="FelhasználóVálasztó" ISN_2="1" LastIsn="1" id="4">
@@ -69,7 +69,7 @@
         <DotNetObjectExists val="N"/>
         <LastModified _date="735927" _time="54801" date="25/11/2015" time="15:13:21"/>
       </Header>
-      <SourceFileTimeStamp _date="735927" _time="51201" date="25/11/2015" time="14:13:21"/>
+      <SourceFileTimeStamp _date="735933" _time="56404" date="01/12/2015" time="15:40:04"/>
     </Program>
     <Program>
       <Header Description="Főablak" ISN_2="1" LastIsn="1" id="6">
@@ -89,11 +89,11 @@
         <Interactive val="Y"/>
         <External val="N"/>
         <Offline val="N"/>
-        <FormType val="M"/>
+        <FormType val="D"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="735927" _time="63674" date="25/11/2015" time="17:41:14"/>
+        <LastModified _date="735934" _time="33595" date="02/12/2015" time="09:19:55"/>
       </Header>
-      <SourceFileTimeStamp _date="735927" _time="60074" date="25/11/2015" time="16:41:14"/>
+      <SourceFileTimeStamp _date="735934" _time="29995" date="02/12/2015" time="08:19:55"/>
     </Program>
     <Program>
       <Header Description="Main" ISN_2="1" LastIsn="1" id="7">
@@ -118,7 +118,94 @@
         <DotNetObjectExists val="N"/>
         <LastModified _date="735927" _time="64381" date="25/11/2015" time="17:53:01"/>
       </Header>
-      <SourceFileTimeStamp _date="735927" _time="60781" date="25/11/2015" time="16:53:01"/>
+      <SourceFileTimeStamp _date="735933" _time="56404" date="01/12/2015" time="15:40:04"/>
+    </Program>
+    <Program>
+      <Header Description="Admin" ISN_2="1" LastIsn="1" id="8">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="C"/>
+        <Interactive val="Y"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="M"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="735934" _time="33532" date="02/12/2015" time="09:18:52"/>
+      </Header>
+      <SourceFileTimeStamp _date="735934" _time="29932" date="02/12/2015" time="08:18:52"/>
+    </Program>
+    <Program>
+      <Header Description="Client" ISN_2="1" LastIsn="1" id="9">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <ParametersAttributes/>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="C"/>
+        <Interactive val="Y"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="M"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="735933" _time="62149" date="01/12/2015" time="17:15:49"/>
+      </Header>
+      <SourceFileTimeStamp _date="735933" _time="58550" date="01/12/2015" time="16:15:50"/>
+    </Program>
+    <Program>
+      <Header Description="Jegynyomtatás" ISN_2="1" LastIsn="1" id="10">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="1"/>
+          <ParametersCount val="1"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="B"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="N"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="735933" _time="66106" date="01/12/2015" time="18:21:46"/>
+      </Header>
+      <SourceFileTimeStamp _date="735933" _time="62508" date="01/12/2015" time="17:21:48"/>
+    </Program>
+    <Program>
+      <Header Description="Jegyellenőrzés" ISN_2="1" LastIsn="1" id="13">
+        <ExecutionRight comp="-1"/>
+        <Resident val="N"/>
+        <SQL val="N"/>
+        <ReturnValue>
+          <ReturnValueAttr/>
+          <TSK_PARAMS val="1"/>
+          <ParametersCount val="1"/>
+          <ParametersAttributes>
+            <Attr MgAttr="N"/>
+          </ParametersAttributes>
+        </ReturnValue>
+        <SqlWhereExist val="N"/>
+        <TaskType val="C"/>
+        <Interactive val="Y"/>
+        <External val="N"/>
+        <Offline val="N"/>
+        <FormType val="M"/>
+        <DotNetObjectExists val="N"/>
+        <LastModified _date="735934" _time="33958" date="02/12/2015" time="09:25:58"/>
+      </Header>
+      <SourceFileTimeStamp _date="735934" _time="30358" date="02/12/2015" time="08:25:58"/>
     </Program>
   </ProgramsRepositoryHeaders>
 
