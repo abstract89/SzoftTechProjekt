@@ -5,7 +5,7 @@
     <Version val="13000"/>
     <WithIsn val="Y"/>
     <Exe comp="-1"/>
-    <LastIsn val="1"/>
+    <LastIsn val="8"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
@@ -21,6 +21,63 @@
         <LoadImmediate val="Y"/>
         <CtlIndex val="1"/>
         <Comment val="This component provides an interface for the user to perform Range, Locate, Sort and Print Data.The component does not expose any object. It has logic units for handling the Range, Locate, Sort and Print Data internal events.The source code for this component is available in the Add_On\UserFunctionality directory, so you can customize the screens of the component as you wish."/>
+      </Component>
+      <Component id="2" name="XLSXToDb">
+        <Description val="ReadXLSXTest"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <CtlIndex val="-1"/>
+        <AssemblyName val="ReadXLSXTest, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null"/>
+        <AssemblyPath val="C:\Users\Dani\Documents\SzoftTechProjekt\Helyfoglalo\ReadXLSXTest.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="Y"/>
+      </Component>
+      <Component id="4" name="System.Windows.Forms">
+        <Description val="System.Windows.Forms"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <CtlIndex val="-1"/>
+        <AssemblyName val="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089"/>
+        <AssemblyPath val="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Windows.Forms\v4.0_4.0.0.0__b77a5c561934e089\System.Windows.Forms.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="Y"/>
+      </Component>
+      <Component id="5" name="Excel.4.5">
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <CtlIndex val="-1"/>
+        <AssemblyPath val="C:\Users\Dani\Documents\SzoftTechProjekt\Helyfoglalo\Excel.4.5.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="N"/>
+      </Component>
+      <Component id="6" name="ICSharpCode.SharpZipLib">
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <CtlIndex val="-1"/>
+        <AssemblyPath val="C:\Users\Dani\Documents\SzoftTechProjekt\Helyfoglalo\ICSharpCode.SharpZipLib.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="N"/>
+      </Component>
+      <Component id="7" name="System.Collections">
+        <Description val="System.Collections"/>
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="Y"/>
+        <CtlIndex val="-1"/>
+        <AssemblyName val="System.Collections, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a"/>
+        <AssemblyPath val="C:\Windows\Microsoft.Net\assembly\GAC_MSIL\System.Collections\v4.0_4.0.0.0__b03f5f7f11d50a3a\System.Collections.dll"/>
+        <UseSpecificVersion val="N"/>
+        <isGuiThreadExecution val="N"/>
+      </Component>
+      <Component id="8" name="Generics">
+        <ComponentType val=".NET"/>
+        <Type val="D"/>
+        <LoadImmediate val="N"/>
+        <CtlIndex val="-1"/>
       </Component>
     </Components>
   </ComponentsRepository>

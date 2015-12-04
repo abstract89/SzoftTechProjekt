@@ -12,7 +12,7 @@
   <ProgramsRepository>
     <Programs>
       <Task MainProgram="N">
-        <Header Description="Bejelentkezés" ISN_2="1" LastIsn="5" id="2">
+        <Header Description="Bejelentkezés" ISN_2="1" LastIsn="1" id="2">
           <ExecutionRight comp="-1"/>
           <Resident val="N"/>
           <SQL val="N"/>
@@ -27,7 +27,7 @@
           <Offline val="N"/>
           <FormType val="M"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="735927" _time="63730" date="25/11/2015" time="17:42:10"/>
+          <LastModified _date="735935" _time="81098" date="03/12/2015" time="22:31:38"/>
         </Header>
         <ReturnValueExpression val="6"/>
         <ItemIsn val="14"/>
@@ -157,6 +157,7 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="6" FlowIsn="9" id="6">
+                  <ASS val="7"/>
                   <Column val="1"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
@@ -175,6 +176,7 @@
               </LogicLine>
               <LogicLine>
                 <Select FieldID="7" FlowIsn="10" id="7">
+                  <ASS val="8"/>
                   <Column val="2"/>
                   <Type val="V"/>
                   <IsParameter val="N"/>
@@ -521,6 +523,14 @@
           <Expression id="12">
             <ExpSyntax val="{0,14}"/>
             <ExpAttribute val="N"/>
+          </Expression>
+          <Expression id="13">
+            <ExpSyntax val="'admin'"/>
+            <ExpAttribute val="A"/>
+          </Expression>
+          <Expression id="14">
+            <ExpSyntax val="'12345'"/>
+            <ExpAttribute val="A"/>
           </Expression>
         </Expressions>
         <EVNT DESC="Belepes" FORCE_EXIT="N" id="1">

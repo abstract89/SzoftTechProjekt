@@ -31,7 +31,7 @@
           <Offline val="N"/>
           <FormType val="D"/>
           <DotNetObjectExists val="N"/>
-          <LastModified _date="735934" _time="33595" date="02/12/2015" time="09:19:55"/>
+          <LastModified _date="735935" _time="49644" date="03/12/2015" time="13:47:24"/>
         </Header>
         <ReturnValueExpression val="4"/>
         <ItemIsn val="6"/>
@@ -368,6 +368,7 @@
                 <Width id="23" val="553"/>
                 <Height id="24" val="358"/>
                 <TaskNumber Exp="5" id="183"/>
+                <AutoFit id="313" val="3"/>
                 <TabOrder id="314" val="2"/>
               </PropertyList>
             </Control>

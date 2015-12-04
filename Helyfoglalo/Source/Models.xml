@@ -4,7 +4,7 @@
   <Header>
     <Version val="13000"/>
     <WithIsn val="Y"/>
-    <LastIsn val="5"/>
+    <LastIsn val="9"/>
     <LastIsnFolder val="0"/>
     <Folders/>
   </Header>
@@ -48,6 +48,26 @@
             <InternalEventID val="13"/>
             <PublicObject comp="-1"/>
           </RaiseEvent>
+        </PropertyList>
+      </Object>
+      <Object id="6" name="XLSXToDB">
+        <PropertyList model="FIELD">
+          <Model attr_obj="FIELD_BLOB" id="1"/>
+          <Size id="174" val="28"/>
+          <_FieldStyle id="276" val="5"/>
+          <ObjectType id="478" val="ReadXLSXTest.ReadXLSX"/>
+        </PropertyList>
+      </Object>
+      <Object id="7" name="NETTextBox">
+        <PropertyList model="CTRL_RICH_CLIENT_DOTNET">
+          <ObjectType id="478" val="System.Windows.Forms.TextBox"/>
+          <ObjectProperties id="479">
+            <PropertyList model="GENERIC"/>
+          </ObjectProperties>
+          <DNControlValueProperty id="541" val="Text"/>
+          <DNControlValueChangedEvent id="542" val="TextChanged"/>
+          <DNControlDisplayMemberProperty id="544"/>
+          <DNControlValueMemberProperty id="545"/>
         </PropertyList>
       </Object>
     </Models>

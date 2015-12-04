@@ -43,9 +43,9 @@
         <Offline val="N"/>
         <FormType val="M"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="735927" _time="63730" date="25/11/2015" time="17:42:10"/>
+        <LastModified _date="735935" _time="81098" date="03/12/2015" time="22:31:38"/>
       </Header>
-      <SourceFileTimeStamp _date="735933" _time="56404" date="01/12/2015" time="15:40:04"/>
+      <SourceFileTimeStamp _date="735935" _time="77498" date="03/12/2015" time="21:31:38"/>
     </Program>
     <Program>
       <Header Description="FelhasználóVálasztó" ISN_2="1" LastIsn="1" id="4">
@@ -89,11 +89,11 @@
         <Interactive val="Y"/>
         <External val="N"/>
         <Offline val="N"/>
-        <FormType val="D"/>
+        <FormType val="M"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="735934" _time="33595" date="02/12/2015" time="09:19:55"/>
+        <LastModified _date="735935" _time="49644" date="03/12/2015" time="13:47:24"/>
       </Header>
-      <SourceFileTimeStamp _date="735934" _time="29995" date="02/12/2015" time="08:19:55"/>
+      <SourceFileTimeStamp _date="735935" _time="46044" date="03/12/2015" time="12:47:24"/>
     </Program>
     <Program>
       <Header Description="Main" ISN_2="1" LastIsn="1" id="7">
@@ -116,9 +116,9 @@
         <Offline val="N"/>
         <FormType val="M"/>
         <DotNetObjectExists val="N"/>
-        <LastModified _date="735927" _time="64381" date="25/11/2015" time="17:53:01"/>
+        <LastModified _date="735935" _time="76131" date="03/12/2015" time="21:08:51"/>
       </Header>
-      <SourceFileTimeStamp _date="735933" _time="56404" date="01/12/2015" time="15:40:04"/>
+      <SourceFileTimeStamp _date="735935" _time="72531" date="03/12/2015" time="20:08:51"/>
     </Program>
     <Program>
       <Header Description="Admin" ISN_2="1" LastIsn="1" id="8">
@@ -135,10 +135,10 @@
         <External val="N"/>
         <Offline val="N"/>
         <FormType val="M"/>
-        <DotNetObjectExists val="N"/>
-        <LastModified _date="735934" _time="33532" date="02/12/2015" time="09:18:52"/>
+        <DotNetObjectExists val="Y"/>
+        <LastModified _date="735936" _time="40348" date="04/12/2015" time="11:12:28"/>
       </Header>
-      <SourceFileTimeStamp _date="735934" _time="29932" date="02/12/2015" time="08:18:52"/>
+      <SourceFileTimeStamp _date="735936" _time="36748" date="04/12/2015" time="10:12:28"/>
     </Program>
     <Program>
       <Header Description="Client" ISN_2="1" LastIsn="1" id="9">
